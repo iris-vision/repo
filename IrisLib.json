@@ -1,0 +1,39 @@
+{
+    "fileName": "IrisLib.json",
+    "name": "IrisLib",
+    "version": "2025.0.0-dev",
+    "frcYear": "2025",
+    "uuid": "99421992-eeb9-4b84-be3c-b696f8843461",
+    "mavenUrls": [
+        "https://iris-vision.github.io/repo/maven"
+    ],
+    "jsonUrl": "https://iris-vision.github.io/repo/IrisLib.json",
+    "javaDependencies": [
+        {
+            "groupId": "dev.irisvision",
+            "artifactId": "IrisLib-java",
+            "version": "2025.0.0-dev"
+        }
+    ],
+    "jniDependencies": [],
+    "cppDependencies": [
+        {
+            "groupId": "dev.irisvision",
+            "artifactId": "IrisLib-cpp",
+            "version": "2025.0.0-dev",
+            "libName": "IrisLib",
+            "headerClassifier": "headers",
+            "sharedLibrary": false,
+            "skipInvalidPlatforms": true,
+            "binaryPlatforms": [
+                "windowsx86-64",
+                "windowsx86",
+                "linuxarm64",
+                "linuxx86-64",
+                "linuxathena",
+                "linuxarm32",
+                "osxuniversal"
+            ]
+        }
+    ]
+}
