@@ -56,11 +56,6 @@ get_option() {
 }
 
 
-confirm() {
-  return 1
-}
-
-
 check_part() {
   echo Checking disk...
 
@@ -322,7 +317,6 @@ main() {
 
   printf "The backup file will be saved at %s\n" "$output"
   printf "After this operation, %s MB of additional disk space will be used.\n" "$(expr $backup_size / 2048)"
-  confirm "Do you want to continue?" "abort"
   create_service
   backup_image
 }
