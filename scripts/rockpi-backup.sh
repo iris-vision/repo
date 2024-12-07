@@ -3,7 +3,7 @@ LANGUAGE=en
 # Source: https://github.com/radxa/backup-sh
 #
 # modified to allow running directly from url
-# curl https://iris-vision.github.io/repo/scripts/rockpi-backup.sh | bash
+# curl https://iris-vision.github.io/repo/scripts/rockpi-backup.sh | sudo bash
 
 set -e
 SCRIPT_NAME=$(basename $0)
