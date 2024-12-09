@@ -5,9 +5,9 @@
     "frcYear": "2025",
     "uuid": "99421992-eeb9-4b84-be3c-b696f8843461",
     "mavenUrls": [
-        "https://iris-vision.github.io/repo/maven"
+        "https://repo.irisvision.dev/maven"
     ],
-    "jsonUrl": "https://iris-vision.github.io/repo/IrisLib.json",
+    "jsonUrl": "https://repo.irisvision.dev/IrisLib.json",
     "javaDependencies": [
         {
             "groupId": "dev.irisvision",
