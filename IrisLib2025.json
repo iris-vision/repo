@@ -1,7 +1,7 @@
 {
     "fileName": "IrisLib2025.json",
     "name": "IrisLib",
-    "version": "2025.0.0-dev",
+    "version": "2025.0.0-SNAPSHOT-9270ac2",
     "frcYear": "2025",
     "uuid": "99421992-eeb9-4b84-be3c-b696f8843461",
     "mavenUrls": [
@@ -12,7 +12,7 @@
         {
             "groupId": "dev.irisvision",
             "artifactId": "IrisLib-java",
-            "version": "2025.0.0-dev"
+            "version": "2025.0.0-SNAPSHOT-9270ac2"
         }
     ],
     "jniDependencies": [],
@@ -20,7 +20,7 @@
         {
             "groupId": "dev.irisvision",
             "artifactId": "IrisLib-cpp",
-            "version": "2025.0.0-dev",
+            "version": "2025.0.0-SNAPSHOT-9270ac2",
             "libName": "IrisLib",
             "headerClassifier": "headers",
             "sharedLibrary": false,
